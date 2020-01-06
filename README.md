@@ -7,6 +7,22 @@ Sanitize your file name to prevent Directory Traversing attack
 go get -u github.com/codenoid/fnsanitizer
 ```
 
+## Usage
+
+```
+package main
+
+import (
+	"fmt"
+	"github.com/codenoid/fnsanitizer"
+)
+
+func main() {
+	fmt.Println(fnsanitizer.Sanitize("../../../folder/file-name.3gp"))
+	// ___folder_file-name.3gp
+}
+```
+
 ## Real World Usage
 
 ```go
