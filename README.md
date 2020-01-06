@@ -1,4 +1,4 @@
-# fnsanitizer
+# fnsanitizer ![Travis Test](https://travis-ci.org/codenoid/fnsanitizer.svg?branch=master)
 Sanitize your file name to prevent Directory Traversing attack
 
 ## Install
